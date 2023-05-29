@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1920px;
+}
+.container{
+    max-width: 1413px;
+    margin: 0 auto;
+}
+.header{
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: 172px;
+}
+nav{
+    margin-right: 283px;
+}
+.nav_list{
+    display: flex;
+    list-style: none;
+   gap: 72px;
+   
+}
+.nav_link{
+    color: black;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.reg{
+    display: flex;
+    gap: 35px;
+}
+.reg_link, .reg_link-green{
+    margin-top: 18px;
+    display: inline-block;
+}
+.reg_green{
+    width: 181px;
+    height: 53px;
+    background: #01996D;
+    border: 1px solid #01996D ;
+    border-radius: 4px;
+    text-align: center;
+}
+.reg_link-green{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+}
+.bg_girl{
+    height: 895px;
+    background: url(../img/background.png) center / cover;
+    padding-top: 175px;
+}
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+    color: #01996D;
+    margin-bottom: 30px;
+}
+.bg_girl_text{
+margin-bottom: 53px;
+font-family: 'Lato'; font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+}
+.bg_girl_link{
+width: 227px;
+height: 65px;
+left: 275px;
+top: 580px;
+background: #01996D;
+border: 1px solid #01996D ;
+    border-radius: 4px;
+    text-align: center;
+padding-top: 20px;
+}
+.bg_girl_link_{
+    color: white;
+}
+@media (max-width:1124) {
+    .logo{
+        margin-right: 150px;
+    }
+    .nav{
+        margin-right: 250px;
+    }
+}
+@media (max-width:1069) {
+    .logo{
+        margin-right: 100px;
+    }
+    .nav{
+        margin-right: 150px;
+    }
+    .nav_list{
+        gap: 50px;
+    }
+    .bg_girl{
+        height: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
